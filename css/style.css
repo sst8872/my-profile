@@ -1,0 +1,37 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400|Nanum+Gothic&subset=korean');
+/*
+ * (font-family: 'Nanum Gothic', sans-serif;
+ * font-family: 'Lato', sans-serif;
+ */
+
+html {
+    font-size: 20px;
+}
+
+header {
+    background: url(./img/man.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 50rem;
+}
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+/*.tabs .indicator {*/
+    /*background-color: #1a2373;*/
+/*}*/
+
+/*.tabs .tab a:focus,*/
+/*.tabs .tab a:focus.active {*/
+    /*background: transparent;*/
+/*}*/
+
+@media screen and (max-width: 670px) {
+    header {
+        min-height: 500px;
+    }
+}
+
